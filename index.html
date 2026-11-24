@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Attendance System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Student Attendance System</h1>
+      <p>Mark today's attendance and view the class summary.</p>
+    </header>
+
+    <section class="panel">
+      <h2>Student List</h2>
+      <div id="studentList"></div>
+      <button id="updateBtn">Update Summary</button>
+    </section>
+
+    <section class="summary">
+      <h2>Attendance Summary</h2>
+      <p>Total Students: <strong id="total">0</strong></p>
+      <p>Present: <strong id="present">0</strong></p>
+      <p>Absent: <strong id="absent">0</strong></p>
+      <p>Attendance: <strong id="percentage">0%</strong></p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
